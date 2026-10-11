@@ -1,56 +1,30 @@
 <!DOCTYPE html>
-
-<!-- Fig. 2.7: nav.html -->
-<!-- Images as link anchors. -->
-<html>
-   <head>
-      <meta charset = "utf-8">
-      <title>Navigation Bar</title>
-   </head>
-
-   <body>
-      <p>
-         <a href = "links.html">
-            <img src = "buttons/links.jpg" width = "65"  
-               height = "50" alt = "Links">
-         </a>
-
-         <a href = "list.html">
-            <img src = "buttons/list.jpg" width = "65"  
-               height = "50" alt = "List of Features">
-         </a>
-
-         <a href = "contact.html">
-            <img src = "buttons/contact.jpg" width = "65" 
-               height = "50" alt = "Contact Me">
-         </a>
-
-         <a href = "table1.html">
-            <img src = "buttons/table.jpg" width = "65"  
-               height = "50" alt = "Tables Page">
-         </a>
-
-         <a href = "form.html">
-            <img src = "buttons/form.jpg" width = "65" 
-               height = "50" alt = "Feedback Form">
-         </a>
-      </p>
-   </body>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Assignments · node102</title>
+  <style>
+    * { box-sizing: border-box; }
+    body { margin: 0; min-height: 100vh; display: grid; place-items: center; background: #f4f7fb; color: #17304b; font-family: system-ui, sans-serif; }
+    main { width: min(680px, 100%); padding: 48px 24px; text-align: center; }
+    h1 { margin: 0 0 12px; font-size: 36px; }
+    p { margin: 0 0 32px; color: #52677d; line-height: 1.6; }
+    nav { display: flex; flex-wrap: wrap; justify-content: center; gap: 16px; }
+    .button { display: inline-block; padding: 16px 24px; border-radius: 10px; background: #176b60; color: white; font-size: 17px; font-weight: 600; text-decoration: none; }
+    .button:hover { background: #105348; }
+    .button:focus-visible { outline: 3px solid #17304b; outline-offset: 4px; }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Assignments</h1>
+    <p>Select an assignment to view it.</p>
+    <nav aria-label="Assignments">
+      <a class="button" href="A1/index.html">Assignment 1</a>
+      <a class="button" href="A2/index.html">Assignment 2</a>
+      <a class="button" href="A3/index.html">Assignment 3</a>
+    </nav>
+  </main>
+</body>
 </html>
-
-<!--
-**************************************************************************
-* (C) Copyright 1992-2012 by Deitel & Associates, Inc. and               *
-* Pearson Education, Inc. All Rights Reserved.                           *
-*                                                                        *
-* DISCLAIMER: The authors and publisher of this book have used their     *
-* best efforts in preparing the book. These efforts include the          *
-* development, research, and testing of the theories and programs        *
-* to determine their effectiveness. The authors and publisher make       *
-* no warranty of any kind, expressed or implied, with regard to these    *
-* programs or to the documentation contained in these books. The authors *
-* and publisher shall not be liable in any event for incidental or       *
-* consequential damages in connection with, or arising out of, the       *
-* furnishing, performance, or use of these programs.                     *
-**************************************************************************
--->
